@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import { TodoContext } from "../store/todostore";
 import classes from "./TodoList.module.css";
 import TodoDetails from "./TodoDetails";
 import TodoModel, { filter } from "../models/todo";

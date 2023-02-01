@@ -1,6 +1,5 @@
 import React, { useContext,useState } from "react";
 import classes from "./TaskFilters.module.css";
-import { TodoContext } from "../store/todostore";
 import TodoModel, { filter } from "../models/todo";
 
 interface Props{

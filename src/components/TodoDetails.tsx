@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import { TodoContext } from "../store/todostore";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEraser, faEdit,faCheckCircle,faSave } from "@fortawesome/free-solid-svg-icons";
 import classes from "./TodoDetails.module.css";

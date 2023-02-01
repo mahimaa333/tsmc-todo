@@ -1,6 +1,5 @@
 import React,{FC, useState, useRef, useContext,ChangeEvent} from 'react'
 import classes from './TodoForm.module.css'
-import {TodoContext} from '../store/todostore'
 import TaskFilters from './TaskFilters'
 import TodoModel,{filter} from "../models/todo";
 import TodoList from './TodoList';
